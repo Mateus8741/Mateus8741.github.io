@@ -55,9 +55,9 @@ function Projects(props) {
       <a
         {...styles}
         className="general-btn"
-        href="https://github.com/harikanani"
+        href="https://github.com/Mateus8741"
       >
-        More Projects (Github)
+        Mais projetos (Github)
       </a>
       <br />
       <br />
