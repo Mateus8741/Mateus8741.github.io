@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "portifolioreactjs",
-  "homepage": "http://Mateus8741.github.io/PortifolioReactJs",
+  "homepage": "http://mateus8741.github.io/PortifolioReactJs",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
