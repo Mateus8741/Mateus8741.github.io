@@ -23,6 +23,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/mateus-tavares-2382911a0/",
   twitter: "https://twitter.com/MateusTavaresB",
   instagram: "https://www.instagram.com/m_tavares87/",
+  whatsapp: "https://wa.me/88981321566",
+  email: "mailto:mateus_sousa_tavares@hotmail.com?subject=Hello%20again",
 };
 
 const skills = {
@@ -247,7 +249,7 @@ const experience = {
   title: "Experiencia",
   subtitle: "Estágios",
   description:
-    "Já completei um estágio, porém estou em outro atualmente. Eu já fiz projetos por conta própria na maioria das vezes e estou procurando ativamente por estágios.",
+    "Já completei um estágio, porém estou em outro atualmente. Já fiz projetos por conta própria na maioria das vezes e estou procurando ativamente por estágios.",
   header_image_path: "experience.svg",
   sections: [
     {

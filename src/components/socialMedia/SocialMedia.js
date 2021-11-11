@@ -41,6 +41,24 @@ export default function socialMedia() {
         <i className="fab fa-instagram"></i>
         <span></span>
       </a>
+      <a
+        href={socialMediaLinks.whatsapp}
+        className="icon-button whatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-whatsapp"></i>
+        <span></span>
+      </a>
+      <a
+        href={socialMediaLinks.email}
+        className="icon-button email"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="far fa-envelope"></i>
+        <span></span>
+      </a>
     </div>
   );
 }

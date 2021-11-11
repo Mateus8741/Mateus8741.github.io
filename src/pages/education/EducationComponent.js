@@ -29,8 +29,8 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                Sempre que possível faço algum projeto de altoria própria para
-                treino. Participando de estágios e aprendendo mais e mais.
+                Sempre que possível faço algum projeto de autoria própria para
+                treino. Participando de estágios e aprendendo sempre mais.
               </p>
             </div>
           </div>
