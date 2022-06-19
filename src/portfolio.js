@@ -23,7 +23,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/mateus-tavares-2382911a0/",
   twitter: "https://twitter.com/MateusTavaresB",
   instagram: "https://www.instagram.com/m_tavares87/",
-  whatsapp: "https://wa.me/88981321566",
+  whatsapp:
+    "https://api.whatsapp.com/send?1=pt_br&phone=88981321566&text=Olá,%20Mateus!",
   email: "mailto:mateus_sousa_tavares@hotmail.com?subject=Hello%20again",
 };
 
@@ -60,10 +61,31 @@ const skills = {
           },
         },
         {
+          skillName: "React Native",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            color: "#1570BF",
+          },
+        },
+        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "React Native",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "React Native",
+          fontAwesomeClassname: "simple-icons:swift",
+          style: {
+            color: "#F27C38",
           },
         },
         {
@@ -78,6 +100,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:npm",
           style: {
             color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Yarn",
+          fontAwesomeClassname: "simple-icons:yarn",
+          style: {
+            color: "#048ABF",
           },
         },
         ,
@@ -116,13 +145,13 @@ const skills = {
             color: "#E94E32",
           },
         },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
+        // {
+        //   skillName: "Python",
+        //   fontAwesomeClassname: "simple-icons:python",
+        //   style: {
+        //     color: "#3776AB",
+        //   },
+        // },
       ],
     },
     {
@@ -207,31 +236,20 @@ const certifications = {
       color_code: "#2AAFED",
     },
     {
-      title: "REACT: ABSTRAINDO SEU CSS COM STYLED COMPONENTS",
+      title: "SASS: ABSTRAINDO SEU CSS COM STYLED COMPONENTS",
       certificate_link:
         "https://cursos.alura.com.br/certificate/6833182d-6cfa-4725-b86d-5fd318893e5c",
       alt_name: "SASS",
       color_code: "#ee82ee",
     },
-    // {
-    //   title: "Hack20",
-    //   subtitle: "Flutter International Hackathon",
-    //   logo_path: "flutter.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-    //   alt_name: "Flutter International Hackathon",
-    //   color_code: "#2AAFED",
-    // },
-    // {
-    //   title: "Postman Student Expert",
-    //   subtitle: "Postman",
-    //   logo_path: "postman.png",
-    //   certificate_link:
-    //     "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-    //   alt_name: "Postman",
-    //   // color_code: "#f36c3d",
-    //   color_code: "#fffbf3",
-    // },
+    {
+      title: "REACT NATIVE: CRIANDO UM APP",
+      certificate_link:
+        "https://cursos.alura.com.br/certificate/8f09da51-d407-4fba-a25f-9becff73cd1f",
+      alt_name: "REACT NATIVE",
+      color_code: "#2AAFED",
+    },
+
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -246,21 +264,21 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experiencia",
-  subtitle: "Estágios",
+  title: "Experiências Profissionais",
+  // subtitle: "Estágios",
   description:
-    "Já completei um estágio, porém estou em outro atualmente. Já fiz projetos por conta própria na maioria das vezes e estou procurando ativamente por estágios.",
+    "Já completei diversos estágios, foram de grande aprendizado para mim, assim como meu primeiro emprego em uma Software House. Hoje me vejo crescendo cada vez mais buscando cada vez mais conhecimento.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Estágios",
+      title: "Experiências Profissionais",
       experiences: [
         {
           title: "NexTi",
           company: "UniFap",
           logo_path: "logo_nexti.png",
-          duration: "Feb 2020 - Atualmente",
-          location: "Home Office",
+          duration: "Feb 2020 - Dez 2021",
+          location: "Presencial",
           description:
             "Realizando trabalho para diversas empresas, também assumindo papel de mentoria para novos intengrantes.",
           color: "#4285F4",
@@ -269,10 +287,28 @@ const experience = {
           title: "GIR - Gestão e Tecnologia Ambiental",
           company: "GIR",
           logo_path: "gir.png",
-          duration: "Nov 2021 - Atualmente",
+          duration: "Nov 2020 - Mar 2021",
           location: "Home Office",
           description: "Projetando e desenvolvendo o Front-End.",
           color: "#008000",
+        },
+        {
+          title: "Lenossa",
+          company: "Software House",
+          logo_path: "Lenossa.jpg",
+          duration: "Jun 2021 - Jun 2022",
+          location: "Presencial",
+          description: "Realizando trabalho como Front-end Mobile.",
+          color: "#4666A6",
+        },
+        {
+          title: "HARD CODE",
+          company: "Software House",
+          logo_path: "HARD_CODE.png",
+          duration: "Jun 2022 - Atualmente",
+          location: "Hibrido",
+          description: "Projetando e desenvolvendo o Front-End.",
+          color: "#e73634",
         },
       ],
     },
