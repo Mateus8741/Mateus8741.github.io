@@ -81,12 +81,6 @@ const skills = {
             color: "#61DAFB",
           },
         },
-        {
-          skillName: "React Native",
-          fontAwesomeClassname: "simple-icons:swift",
-          style: {
-            color: "#F27C38",
-          },
         },
         {
           skillName: "NodeJS",
