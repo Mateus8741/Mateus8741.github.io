@@ -61,22 +61,22 @@ const skills = {
           },
         },
         {
-          skillName: "React Native",
+          skillName: "TypeScript",
           fontAwesomeClassname: "simple-icons:typescript",
           style: {
             color: "#1570BF",
           },
         },
         {
-          skillName: "ReactJS",
+          skillName: "React JS/Native",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
           },
         },
         {
-          skillName: "React Native",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Flutter",
+          fontAwesomeClassname: "simple-icons:flutter",
           style: {
             color: "#61DAFB",
           },
