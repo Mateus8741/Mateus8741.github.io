@@ -270,7 +270,7 @@ const experience = {
           title: "NexTi",
           company: "UniFap",
           logo_path: "logo_nexti.png",
-          duration: "Feb 2020 - Dez 2021",
+          duration: "Feb 2020 - Jun 2022",
           location: "Presencial",
           description:
             "Realizando trabalho para diversas empresas, também assumindo papel de mentoria para novos intengrantes.",
@@ -280,7 +280,7 @@ const experience = {
           title: "GIR - Gestão e Tecnologia Ambiental",
           company: "GIR",
           logo_path: "gir.png",
-          duration: "Nov 2020 - Mar 2021",
+          duration: "Mar 2020 - Ago 2021",
           location: "Home Office",
           description: "Projetando e desenvolvendo o Front-End.",
           color: "#008000",
@@ -289,16 +289,17 @@ const experience = {
           title: "Lenossa",
           company: "Software House",
           logo_path: "Lenossa.jpg",
-          duration: "Jun 2021 - Jun 2022",
+          duration: "Nov 2021 - Mar 2022",
           location: "Presencial",
-          description: "Realizando trabalho como Front-end Mobile.",
+          description:
+            "Realizando trabalho como desenvolvedor Front-end Mobile.",
           color: "#4666A6",
         },
         {
           title: "HARD CODE",
           company: "Software House",
           logo_path: "HARD_CODE.png",
-          duration: "Jun 2022 - Atualmente",
+          duration: "Mar 2022 - Ago 2022",
           location: "Hibrido",
           description: "Projetando e desenvolvendo o Front-End.",
           color: "#e73634",
@@ -340,34 +341,134 @@ const projects = {
       name: "Creatus-Art-Design",
       url: "https://github.com/Mateus8741/Creatus-Art-Design",
       description: "Site para compra de edição de artes em geral",
+      img:
+        "https://github.com/Mateus8741/rentX/blob/main/assets/cover.png?raw=true",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "Typescript",
+          iconifyClass: "vscode-icons:file-type-typescript",
         },
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Styled-Components",
+          iconifyClass: "vscode-icons:file-type-styled",
+        },
+        {
+          name: "Axios",
+          iconifyClass: "simple-icons:axios",
         },
       ],
     },
     {
       id: "1",
-      name: "CEEP",
-      url: "https://github.com/Mateus8741/ALURA-CEEP",
-      description: "Controle de estoques.",
+      name: "Ignite Feed",
+      url: "https://github.com/Mateus8741/ignite_feed/tree/master",
+      description: "Social media.",
+      img:
+        "https://user-images.githubusercontent.com/62652109/204415067-c6fe82b6-a80b-4247-9154-4ee66f442396.png",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          name: "Typescript",
+          iconifyClass: "vscode-icons:file-type-typescript",
         },
         {
           name: "React",
           iconifyClass: "logos-react",
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Go Finances",
+      url: "https://github.com/Mateus8741/gofinances",
+      description: "Place of finances.",
+      img:
+        "https://camo.githubusercontent.com/da41beb7ab128aa683068f2757eed54498bbb740e8094f52f370f6632cfd2d31/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f656c6961736763662f696d6167652f75706c6f61642f76313538373432333431302f676f66696e616e6365732f6d6f636b75705f6c71676e62742e706e67",
+      languages: [
+        {
+          name: "Typescript",
+          iconifyClass: "vscode-icons:file-type-typescript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Styled-Components",
+          iconifyClass: "vscode-icons:file-type-styled",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Post List",
+      url: "https://github.com/Mateus8741/post_list",
+      description: "Blog post list with comments.",
+      img:
+        "https://user-images.githubusercontent.com/62652109/203363418-9376aca4-448c-41b3-86b4-1ebde22a5b1d.png",
+      languages: [
+        {
+          name: "Typescript",
+          iconifyClass: "vscode-icons:file-type-typescript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Tailwind",
+          iconifyClass: "logos:tailwindcss-icon",
+        },
+        {
+          name: "Axios",
+          iconifyClass: "simple-icons:axios",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "NLW Copa Web",
+      url: "https://github.com/Mateus8741/web-nlw",
+      description: "Bolão da copa 2022 aplicação web.",
+      img:
+        "https://github.com/danieldemoura/nlw-10-copa/blob/main/.github/preview.png?raw=true",
+      languages: [
+        {
+          name: "Typescript",
+          iconifyClass: "vscode-icons:file-type-typescript",
+        },
+        {
+          name: "NextJs",
+          iconifyClass: "logos:nextjs-icon",
+        },
+        {
+          name: "Tailwind",
+          iconifyClass: "logos:tailwindcss-icon",
+        },
+      ],
+    },
+    {
+      id: "5",
+      name: "NLW Copa Mobile",
+      url: "https://github.com/Mateus8741/web-nlw",
+      description: "Bolão da copa 2022 app mobile.",
+      img:
+        "https://github.com/rocketseat-education/nlw-copa-ignite/blob/main/.github/web.png?raw=true",
+      languages: [
+        {
+          name: "Typescript",
+          iconifyClass: "vscode-icons:file-type-typescript",
+        },
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Expo",
+          iconifyClass: "vscode-icons:file-type-light-expo",
         },
       ],
     },

@@ -29,6 +29,7 @@
 
 .repo-name-div {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -57,7 +58,7 @@
 
 .repo-description {
   word-wrap: break-word;
-  text-align: left;
+  /* text-align: left; */
   display: -webkit-box;
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 4;
@@ -66,6 +67,7 @@
 
 .repo-details {
   display: flex;
+  justify-content: center;
   flex-direction: row;
 }
 
