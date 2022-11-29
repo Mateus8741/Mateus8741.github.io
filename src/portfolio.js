@@ -75,11 +75,31 @@ const skills = {
           },
         },
         {
+          skillName: "NextJs",
+          fontAwesomeClassname: "logos:nextjs-icon",
+        },
+        {
+          skillName: "Angular",
+          fontAwesomeClassname: "vscode-icons:file-type-angular",
+        },
+        {
+          skillName: "Tailwind Css",
+          fontAwesomeClassname: "logos:tailwindcss-icon",
+        },
+        {
+          skillName: "Styled Components",
+          fontAwesomeClassname: "vscode-icons:file-type-styled",
+        },
+        {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
           style: {
             color: "#61DAFB",
           },
+        },
+        {
+          skillName: "Expo",
+          fontAwesomeClassname: "vscode-icons:file-type-light-expo",
         },
         {
           skillName: "NodeJS",
