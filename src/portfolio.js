@@ -172,7 +172,7 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experiência trabalhando com cloud platforms",
-        "⚡ Experiência em hosting e administramento de websites",
+        "⚡ Experiência em hosting e administração de websites",
       ],
       softwareSkills: [
         {
