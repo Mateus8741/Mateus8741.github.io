@@ -196,6 +196,13 @@ const skills = {
             color: "#5b77ef",
           },
         },
+        {
+          skillName: "Vercel",
+          fontAwesomeClassname: "simple-icons:vercel",
+          style: {
+            color: "#000",
+          },
+        },
       ],
     },
   ],
